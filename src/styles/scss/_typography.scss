@@ -1,0 +1,46 @@
+@use "./abstracts/" as vars;
+
+%label,
+%subtitle,
+%normal,
+%highlight-normal,
+%highlight-mid,
+%highlight-small {
+  color: vars.$general-text;
+}
+
+%label,
+%normal {
+  font-weight: vars.$weight-400;
+}
+
+%subtitle {
+  font-size: vars.$size-large;
+  font-weight: vars.$weight-300;
+}
+
+%label {
+  font-size: vars.$size-normal;
+}
+
+%normal {
+  font-size: vars.$size-normal;
+}
+
+%highlight-mid,
+%highlight-normal,
+%highlight-small {
+  font-weight: vars.$weight-700;
+}
+
+%highlight-mid {
+  font-size: vars.$size-mid;
+}
+
+%highlight-normal {
+  font-size: vars.$size-normal;
+}
+
+%highlight-small {
+  font-size: vars.$size-small;
+}
